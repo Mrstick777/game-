@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = gameInput.value;
 
         const response = await fetch(
-            "https://api.rawg.io/api/games?key=&search=" + name
+            "https://api.rawg.io/api/games?key=8bb49c17abff41f895c01c1db7377d4d&search=" + name
         );
 
         const data = await response.json();
